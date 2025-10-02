@@ -1,6 +1,6 @@
 defmodule Bioflow.DNAFlow do
   @worker_count 8
-  @timeout 1_000_000
+  @timeout 10_000_000
 
   # Bioflow.DNAFlow.analyze_distributed("/Users/viktor/Documents/статьи/бим_и_днк/bioflow/dna_sequence.txt")
   def analyze_distributed(file_path) do
